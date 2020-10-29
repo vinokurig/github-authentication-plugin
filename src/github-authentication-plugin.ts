@@ -23,7 +23,7 @@ export function start(context: theia.PluginContext) {
         login: async (scopeList: string[]) => {
             session = {
                 id: 'github-session',
-                accessToken: 'paste the github token here',
+                accessToken: '2b1f4a9a093fc56187087a03388ffbbbbc8abd3a',
                 account: { label: 'githubUser', id: 'githubUserId' },
                 scopes: scopeList
             };
